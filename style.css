@@ -5,7 +5,9 @@
     list-style: none;
 }
 
-
+a{
+    color: rgb(156, 151, 238);
+}
 
 .container{
     width: 100%;
@@ -24,6 +26,23 @@
     display: flex;
     position: relative;
     background-color: rgb(0, 132, 253);
+}
+
+#bgfoot{
+    background-color: rgb(51, 51, 51);
+}
+
+#foot{
+    padding: 4rem;
+    max-width: 920px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#footer{
+    
 }
 
 .bg{
@@ -111,6 +130,18 @@
     margin-top: 2rem;
 }
 
+.idpartner {
+    flex-basis: 20%;
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+.datipartner{
+    border-radius: 1rem;
+    flex-basis: 80%;
+    background-color: red
+}
+
 .benefits{
     padding: 4rem;
     display: flex;
@@ -156,4 +187,14 @@
     height: 30rem;
     flex-basis: 30%;
     background-color: blue;
+}
+
+.free{
+    padding: 4rem;
+    max-width: 920px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
