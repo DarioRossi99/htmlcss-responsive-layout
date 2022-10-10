@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+#blocknav{
+    position: fixed;
+    width: 100%;
+}
+
+#firstnav {
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    background-color: rgb(0, 132, 253);
+}
+
+.bg{
+    background-color: rgb(151, 146, 228);
+    
+}
+
+.barranav{
+    flex-direction: row
+}
+
+.appstore{
+    margin: 0 auto;
+    padding-top: 10em;
+    padding-bottom: 5rem;
+    display: flex;
+    max-width: 920px;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.app{
+    background-color: rgb(181, 221, 255);
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.demoapp{
+    background-color: rgb(181, 221, 255);
+    width: 38rem;
+    height: 18rem;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-around;
+}
+
+.insidedemo{
+    width: 16rem;
+    height: 18rem;
+    display: flex;
+    padding: 1rem;
+    background-color: red;
+}
+
+.strategic{
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    max-width: 920px;
+    justify-content: space-evenly;
+}
+
+.planning{
+    height: 24rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.committed{
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    max-width: 920px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonial{
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.partner{
+    max-width: 920px;
+    background-color: rgb(151, 146, 228);
+    height: 10rem;
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.benefits{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+.card-contanier{
+    margin: 0 auto;
+    padding-top: 10em;
+    padding-bottom: 5rem;
+    display: flex;
+    max-width: 920px;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: white;
+    margin-bottom: 1rem;
+    width: 18rem;
+    height: 25rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.aboutus{
+    margin: 0 auto;
+    padding: 7rem 0;
+    display: flex;
+    max-width: 920px;
+    justify-content: space-evenly;
+}
+
+.contesto{
+    height: 30rem;
+    flex-basis: 80%;
+    background-color: red
+}
+
+.foto{
+    height: 30rem;
+    flex-basis: 30%;
+    background-color: blue;
+}
