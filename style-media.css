@@ -20,7 +20,9 @@
     }
 
     .padd .box{
+
         flex-direction: row;
+
     }
     
     .app{
@@ -28,6 +30,19 @@
         width: 33.3%;
       
     }
+
+    .card .boxcard{
+
+        flex-direction: row;
+
+    }
+    
+    .card{
+        
+        width: 33.3%;
+      
+    }
+    
 
     .develop{
 
