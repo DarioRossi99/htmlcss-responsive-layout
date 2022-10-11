@@ -1,11 +1,62 @@
 @media all and (min-width: 768px) {
     
+    .phone{
+
+        flex-direction: row;
+    }
+
+    .phone .planning{
+
+        flex-direction: row;
+
+        width: 50%;
+    }
+
+    .padd{
+
+        width: 66.6%;
+
+        flex-direction: row;
+    }
+
+    .padd .box{
+        flex-direction: row;
+    }
+    
+    .app{
+        
+        width: 33.3%;
+      
+    }
+
+    .develop{
+
+        flex-direction: row;
+
+    }
+
+    .phone .partner{
+
+        flex-direction: row;
+
+    }
+
+    .idpartner {
+        flex-basis: calc(100% / 3);
+    }
+
+    .datipartner{
+        flex-basis: calc(100% / 3 * 2);
+    }
+
 }
 
 @media all and (min-width: 992px) {
     
-}
+    .insidedemo{
 
-@media all and (min-width: 1200px) {
+        width: 50%;
     
+    }
+
 }
